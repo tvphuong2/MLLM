@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MLLM</string>
+    <string name="hold_to_talk">Nhấn giữ để nói</string>
+    <string name="release_to_send">Thả để xử lý</string>
+    <string name="permission_title">Cần quyền micro</string>
+    <string name="permission_rationale">Ứng dụng cần quyền thu âm để xử lý giọng nói hoàn toàn trên thiết bị.</string>
+    <string name="permission_button">Cấp quyền</string>
+    <string name="label_transcription">Kết quả nhận dạng</string>
+    <string name="label_response">Phản hồi LLM</string>
+    <string name="placeholder_empty">Chưa có dữ liệu</string>
+    <string name="status_integrity_passed">Integrity OK</string>
+    <string name="status_integrity_pending">Đang kiểm tra</string>
+    <string name="status_asr_ready">ASR sẵn sàng</string>
+    <string name="status_asr_stub">ASR giả lập</string>
+    <string name="status_llm_ready">LLM sẵn sàng</string>
+    <string name="status_llm_stub">LLM giả lập</string>
+    <string name="status_processing">Đang xử lý…</string>
 </resources>
