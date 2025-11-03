@@ -18,4 +18,7 @@
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
-#-renamesourcefileattribute SourceFile
+#-renamesourcefileattribute SourceFile# Keep the native bridge so JNI method names remain stable after shrinking.
+-keep class com.example.mllm.nativebridge.NativeRagBridge {
+    *;
+}
